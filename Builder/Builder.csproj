@@ -41,6 +41,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\Builder.cs" />
     <Compile Include="Properties\Cap.cs" />
+    <Compile Include="Properties\ClassCapBuilder.cs" />
+    <Compile Include="Properties\Director.cs" />
     <Compile Include="Properties\SportCapBuilder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

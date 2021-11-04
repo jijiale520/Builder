@@ -4,14 +4,14 @@ namespace Builder.Properties
 {
     public class Cap
     {
-        private string name;
+        private string rope;
         private string cap;
         private string capBody;
 
 
-        public void SetString(string _name)
+        public void SetString(string _rope)
         {
-            this.name = _name;
+            this.rope = _rope;
         }
 
         public void SetCap(string _cap)
@@ -26,7 +26,7 @@ namespace Builder.Properties
 
         public void Show()
         {
-            Console.WriteLine(string.Format("name = {0}, cap = {1}, capBody = {2}", name, cap, capBody));
+            Console.WriteLine(string.Format("rope = {0}, cap = {1}, capBody = {2}", rope, cap, capBody));
         }
     }
 }
